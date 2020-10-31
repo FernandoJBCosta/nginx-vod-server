@@ -10,7 +10,8 @@ PWD=`pwd`
 apt-get install -y libpcre3 libpcre3-dev
 apt-get install -y libssl-dev
 apt-get install -y libgd-dev
-apt-get install -y libxml2-dev 
+apt-get install -y libxml2-dev
+apt-get install -y libxslt-dev
 
 PREFIX=`readlink -f $1`
 NGINX_PREFIX=$PREFIX/nginx
