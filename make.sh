@@ -12,6 +12,7 @@ apt-get install -y libssl-dev
 apt-get install -y libgd-dev
 apt-get install -y libxml2-dev
 apt-get install -y libxslt-dev
+apt-get install -y libgeoip-dev
 
 PREFIX=`readlink -f $1`
 NGINX_PREFIX=$PREFIX/nginx
