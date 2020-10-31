@@ -7,6 +7,10 @@ then
 fi
 PWD=`pwd`
 
+apt-get install libpcre3 libpcre3-dev
+apt-get install libssl-dev
+apt-get install libgd-dev
+
 PREFIX=`readlink -f $1`
 NGINX_PREFIX=$PREFIX/nginx
 SCRIPT_DIR=$PWD/script
